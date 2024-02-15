@@ -23,7 +23,12 @@
   <body>
     <div class="container">
       <div class="imgcontainer">
-        <img src="./images/image-product-mobile.jpg" alt="" />
+        <picture>
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width: 700px)" />
+          <img src="./images/image-product-mobile.jpg" alt=""
+        /></picture>
       </div>
       <div class="card">
         <h2>Perfume</h2>
